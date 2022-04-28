@@ -34,16 +34,17 @@ case it password -->
 <hr> 
 <!-- Now we move on to a second section so we divide it with a <hr> element -->
     <section>
-        <!-- query strings are  -->
+        <!-- query strings are website search  -->
         <h1>Query Strings</h1>
-        <!--  -->
+        <!--  the action is a link we put for the website we want to go and the input type is any text 
+        you can put so it can take you to the websites for what ever you search. in this case youtube-->
             <form action="https://www.youtube.com/results?search">
 
                 <input type="text" name="q">
                 <button>Search YouTube</button>
 
             </form>
-<!--  -->
+<!-- same thing but for for google^^^-->
             <form action="https://www.google.com/search">
 
                 <input type="text" name="q">
@@ -53,14 +54,15 @@ case it password -->
 
     </section>
 <hr>
-<!--  -->
+<!--  a radio button and checkbox are buttons we can click on -->
     <section>
         <h1>Radio buttons and checkboxes</h1>
             <form action="birds">
-                <!--  -->
+                <!--this here is for check box for it to be checkbox we have to 
+                put in the "type"-"checkbox" in order to get a check box  -->
                 <label for="agree">I agree to everything</label>
                 <input type="checkbox" name="agree_tos" id="agree">
-<!--  -->
+<!-- same thing but radio is a circle checkbox  -->
                 <p>
                     <lablel for="s">Small</lablel>
                     <input type="radio" name="size" id="s" value="s">
@@ -72,7 +74,7 @@ case it password -->
                     <input type="radio" name="L" id="L" value="L">
 
                  </p>
-<!--  -->
+<!--to choose multiple options we need a <select> element to we can get a drop down slector.   -->
                 <p>
                     <label for="FavColor">What is your fav color</label>
 
@@ -106,15 +108,16 @@ in the text box we need attributes  -->
             </form>
     </section>
     <hr>
-<!--  -->
+<!--to take to a website like emails for an example  -->
     <section>
         <h2>Forms Validations</h2>
         <form action="/bannanas">
+            <!-- it is required to type a text in order for you to be taken to a different 
+            website, it can not be empty -->
             <label for="Required"></label>
-<!--  -->
-                <input type="text" name="funny" id="required" required>
+              <input type="text" name="funny" id="required" required>
                 
-<!--  -->
+<!--  one box text can not type more than 10 words-->
             <label for="Length"></label>
             <input type="text" name="lenghthy" id="length" minlength="5" maxlength="10">
 
