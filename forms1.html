@@ -19,28 +19,31 @@
                     <input id="username" type="text" placeholder="Esau" name="username">
 
                  </p>
-<!--  -->
+<!--for a password we need a Label and then we put what were using the label for, in this 
+case it password -->
                  <p>
                     <label for="password">Enter a Password:</label>
                     <input id="Password" type="password" placeholder="Password" name="Password">
 
                  </p>
-<!--  -->
+<!--So now that we put username and password we need a summit button to take us to a different tab  -->
                  <button>Summit Buttton</button>
             
-   <!--  -->
             </form>
     </section>
 <hr> 
+<!-- Now we move on to a second section so we divide it with a <hr> element -->
     <section>
+        <!-- query strings are  -->
         <h1>Query Strings</h1>
+        <!--  -->
             <form action="https://www.youtube.com/results?search">
 
                 <input type="text" name="q">
                 <button>Search YouTube</button>
 
             </form>
-
+<!--  -->
             <form action="https://www.google.com/search">
 
                 <input type="text" name="q">
@@ -48,15 +51,16 @@
 
             </form>
 
-
     </section>
 <hr>
+<!--  -->
     <section>
         <h1>Radio buttons and checkboxes</h1>
             <form action="birds">
-                <label for="agree">i agree to everything</label>
+                <!--  -->
+                <label for="agree">I agree to everything</label>
                 <input type="checkbox" name="agree_tos" id="agree">
-
+<!--  -->
                 <p>
                     <lablel for="s">Small</lablel>
                     <input type="radio" name="size" id="s" value="s">
@@ -82,33 +86,51 @@
                     </select>
 
                 </p>
-<!--  -->
+<!-- For a scrolbar you need an input and then a range you need an 
+    input, id, min, and a name -->
                 <p>
 
                     <label for="scroll">Esau Scrolbar</label>
                     <input type="range"id="scrol" min="10" name="scrolbar">
+                  </p>
+<!-- For a text box we need a label and then a textarea but for us to text something
+in the text box we need attributes  -->
+                  <P>
+                    <label for="request">Type into this box</label> 
+                    <textarea id="request" name="reqs" rows="15" cols="15" placeholder="Type something here"></textarea>
 
-
-
-
-
-
-
-
-                </p>
-
-
-
-
-
-
-
+                  </P>
 
                 <button>Summit Button <b/button>
 
             </form>
     </section>
+    <hr>
+<!--  -->
+    <section>
+        <h2>Forms Validations</h2>
+        <form action="/bannanas">
+            <label for="Required"></label>
+<!--  -->
+                <input type="text" name="funny" id="required" required>
+                
+<!--  -->
+            <label for="Length"></label>
+            <input type="text" name="lenghthy" id="length" minlength="5" maxlength="10">
 
+            <p>
+               <input type="email">
+
+            </p>
+
+
+
+            <button>Summit</button>
+        </form>
+
+
+
+    </section>
 
 </body>
 </html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+<!-- the id should be connected with the label -->
+<body>
+    <section>
+        <h1>Please fill out form below</h1>
+            <form action="form"></form>
+            <p>
+                <label for="First name ">First name:</label>
+                <input id="First name" type="text" placeholder="First name" name="First name">
+            </p>
+ <!--the <input> should have a type, id, placehoder, and a name  -->
+            <p>
+                <label for="Last name">Last name:</label>
+                <input type="text" id="Last name" placeholder="Last name" name="Last name">
+
+
+            </p>
+
+<!-- the option for action is telling us what option of food we got  -->
+
+          <section> 
+              <form action="/option">
+            <p>
+                <label for="Food Options">Which food would you like to eat?</label>
+                <select name="Food" id="Food Option">
+
+                    <option value="Chicken">Chicken</option>
+                    <option value="Beef">Beef</option>
+                    <option value="Fish">Fish</option>
+
+                </select>
+            </p>
+<!--the textarea carry other attributes such as cols, and rows, which we can choose any number of text it can
+fit in the text box   -->
+            <p>
+                <label for="request">Do you have any allergies?</label>
+                <textarea name="request" id="reqs" cols="10" rows="10" placeholder="Hey Monte!"></textarea>
+              </p>
+
+              <button>send</button>
+
+
+               </form>
+
+         
+
+    </section>
+
+    
+</body>
+
+
+</html>
