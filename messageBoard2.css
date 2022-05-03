@@ -1,0 +1,42 @@
+
+/* it selects the whole page and changes it  */
+/* 
+*{
+
+color: blue;
+background-color: red;
+} */
+
+/* it changes the color of the body( the background of the page) */
+body{ 
+
+    background-color: beige;
+}
+/*it changes all the buttons on the html file any size you want  */
+button{
+    font-size: 30px;
+}
+
+/* select and header and only those headers will change colors  */
+h1, h2{
+    color: crimson;
+}
+/* type the id from html and it will only change that id color  */
+
+#signup{
+    background-color: pink;
+    color: blue;
+
+}
+
+.sec{
+
+    color: green;
+}
+
+/*  */
+
+.post a{
+
+    color: hotpink;
+}
