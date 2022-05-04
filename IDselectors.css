@@ -1,0 +1,51 @@
+
+
+/* to change the color of whatever name is on the list, we choose "." because on the html file we already linked with 
+this file and put the class selector on the html file */
+
+.Alabama{
+    color: crimson;
+}
+
+.Oklahoma{
+    color: crimson;
+}
+
+.Notre-Dame{
+
+    color: green;
+}
+
+.Miami{
+    color: green;
+}
+
+.Michigan{
+    color: rgb(165, 165, 90);
+}
+
+.Ohio-State{
+    color: red;
+}
+
+.Southern-California{
+    color: red;
+
+}
+.Texas{
+    color: rgb(223, 151, 17);
+}
+.Nebraska{
+    color: red;
+}
+/* on the html file we chosed the button element with attribute of ID and 
+on css we use the id selector of "#" so the button on html can change color */
+#YES-I-AGREE{
+    background-color: green;
+    color: white;
+}
+
+#NO-I-DONT-AGREE{
+    background-color: red;
+    color: white;
+}

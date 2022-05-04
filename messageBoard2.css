@@ -28,7 +28,7 @@ h1, h2{
     color: blue;
 
 }
-
+/*  */
 .sec{
 
     color: green;
@@ -40,3 +40,53 @@ h1, h2{
 
     color: hotpink;
 }
+
+footer > a{
+
+    color: purple;
+}
+
+/*  */
+
+input[type="password"]{
+
+color:purple;
+
+ }
+
+ input[type="text"]{
+
+    color: red;
+ }
+
+ /*your checking all anchor tag have  */
+ a[href*="google"]{
+
+    color: darkorange;
+ }
+/* it will only change color button hover without id, its called a pseudo classes */
+ button:hover{
+
+background-color: red;
+color: rgb(114, 91, 213);
+ }
+/* having the actual element witha pseudo class it activate the color 
+when you try to click on the buttons without an id */
+ .post button:active {
+
+background-color: green;
+
+ }
+ /* pseudo elements */
+
+ h2::first-letter {
+
+    font-size:50px;
+ }
+
+ /*  pseudo elements*/
+ p::first-line {
+
+    color: blue;
+    background-color: red;
+ }
