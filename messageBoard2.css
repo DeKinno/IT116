@@ -28,14 +28,13 @@ h1, h2{
     color: blue;
 
 }
-/*  */
+/* the dot means a class */
 .sec{
 
     color: green;
 }
 
-/*  */
-
+/*  the dot also means class*/
 .post a{
 
     color: hotpink;
@@ -46,7 +45,8 @@ footer > a{
     color: purple;
 }
 
-/*  */
+/* since were changing the name of the password 
+we put the type and the input with "[]" */
 
 input[type="password"]{
 
