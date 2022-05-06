@@ -1,8 +1,8 @@
-h1{
-color: pink;
-
+header >a{
+color: rgb(203, 49, 74);
+font-size: 30px;
 }
 
-.sports{
-    color: blue;
+#Schools >a {
+    color: red;
 }
