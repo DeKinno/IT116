@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Containers</title>
+<!--  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+<!--the navigation bar will be on top of the page  -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <!-- nav bar will have it limit when you shorten the page -->
+        <div class="container-fluid">
+            <!--nav bar has an img with a link that you can click on.  -->
+            <a class="navbar-brand" href="https://www.realmadrid.com/en">
+                <img src="https://p7.hiclipart.com/preview/803/289/309/real-madrid-c-f-ciudad-real-madrid-real-madrid-juvenil-a-hala-madrid-jersey-football.jpg"
+                alt="" width="30" height="30" >
+                Real Madrid
+            </a>
+            <!-- hamburger menu:  -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            
+            </button>
+            <!-- div class to collapse -->
+            
+            <div class="collapse navbar-collapse" id="navbar1">
+                <!-- a un-order lsit to navigate items on the navigation bar -->
+                <ul class="navbar-nav d-felx me-auto">
+
+                    <li class="nav-item actve">
+                        <a class="nav-link" href="https://www.realmadrid.com/en">First</a>
+                    </li>
+                    
+                    <li class="nav-item actve">
+                        <a class="nav-link" href="https://www.realmadrid.com/en">Second</a>
+                    </li>
+                    
+                    <li class="nav-item actve">
+                        <a class="nav-link" href="https://www.realmadrid.com/en">Third</a>
+                    </li>
+                    <!-- Making a unorder list of anchor tag list to navigate to a webpage with 
+                    the dropdown button -->
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">More</a>
+                            <ul class="dropdown-menu">
+                            
+                                <li>
+                                    <a href="https://www.realmadrid.com/en/tickets" class="dropdown-item">Tickets</a>
+                                </li>
+
+                                <li>
+                                    <a href="https://shop.realmadrid.com/?" class="dropdown-item">Shop</a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.realmadrid.com/en/tour-bernabeu" class="dropdown-item">Tour</a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.realmadrid.com" class="dropdown-item">FourthDropdown</a>
+                                </li>
+
+                            </ul>
+
+                    </li>
+
+
+                </ul>
+
+                 <form class="d-flex" action="/testing">
+
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success" type="sumbit">Search</button>
+
+                </form>
+
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <br>
+    <br>
+
+<!-- Giving the header a bootstrap class and giving it a place where to put it 
+and what display the header will be   -->
+        <section>
+            <div class="container card">
+                <h1>header without bootstrap class</h1>
+                <!--  Diferent class element -->
+                <h1 class="display-1 text-center text-primary">Header with bootstrap class</h1>
+                <h1 class="display-4 text-center">Display 4 header</h1>
+                <hr>
+                <!-- Button will have a different colors with thier proper names and the buttons will 
+                still be in the container because of the div element -->
+                <button type="button" class="btn btn-success">Greencolor</button>      
+                <button type="button" class="btn btn-dark">blackcolor</button>
+                <button type="button" class="btn btn-danger">Redcolor</button>
+
+                <button type="button" class="btn btn-outline-warning">yellowcolor</button>
+                <hr>
+                <h1 class="display-4 text-center">Paragragh Text</h1>
+                <p>Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Voluptatem enim iste fugit deserunt 
+                    eveniet reprehenderit totam dolorem, laboriosam, illum suscipit 
+                    debitis doloremque quas veritatis perferendis, veniam in a. Unde, sunt?</p>
+                    <hr>
+                    <!-- A group section of buttons -->
+                    <h1 class="display-4 text-center">Group button</h1>
+                    <!-- making a group button with color, buttons will be in one section together -->
+                    <div class="btn-group">
+                        <button class="btn btn-danger">One</button>
+                        
+                        <button class="btn btn-danger">Two</button>
+                        
+                        <button class="btn btn-danger">Three</button>
+                    </div>
+
+                    <hr>
+                    <br>
+                    <!-- contains the imagine inside the container  -->
+                    <h1 class="display-4 text-center">Image Source With Bootstrap</h1>
+                    <img src="https://cdn.discordapp.com/attachments/946876676778893372/974068753488826399/IMG_1364.jpg" alt="">
+
+                    <blockquote class="blackquote tet-left ng-light">
+                        <p class="mb-2">"This a cool quote about Madrid!"</p>
+
+                        <!--footer will be a light word from who ever the qoute came from  -->
+
+                        <footer class="blockquote-footer">Alan</footer>
+                
+
+
+
+                    </blockquote>
+
+
+
+            </div>
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+<!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
